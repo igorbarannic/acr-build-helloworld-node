@@ -1,5 +1,5 @@
 FROM node:9-alpine
-LABEL TESTTASKACR
+LABEL Testlabel=TESTTASKACR
 COPY . /src
 RUN cd /src && npm install
 EXPOSE 80
